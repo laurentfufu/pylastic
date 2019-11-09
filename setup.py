@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pylastic-peshane",
-    version="0.0.1",
+    version="0.0.2",
     author="Laurent Fuentes",
     author_email="social@peshane.net",
     description="Interact with Jelastic API",
