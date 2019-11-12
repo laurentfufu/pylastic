@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pylastic-peshane",
-    version="0.0.2",
+    version="0.0.3",
     author="Laurent Fuentes",
     author_email="social@peshane.net",
     description="Interact with Jelastic API",
@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/laurentfufu/pylastic",
     packages=setuptools.find_packages(),
+    install_requires=['requests'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
